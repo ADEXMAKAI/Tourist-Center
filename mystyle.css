@@ -1,0 +1,212 @@
+body{
+    padding:4.5rem;
+    margin:0;
+    background:#edc0bf;
+    background:linear-gradient(90deg, #edc0bf 0,#c4caef 58%);
+    font-family:"inter",sans-serif;
+}
+
+#nav{
+    background-color: inherit;
+}
+
+/* .bayo
+{
+    background-color:inherit;
+    border:1px solid #000;
+} */
+
+
+/*
+#adex{
+    caption-side:top; 
+    margin-top:0.001rem;
+} */
+
+
+
+#maxim{
+
+    
+    justify-content:center;
+    align-items:center;
+    
+}
+/*
+[class*="col-md-12"]{
+padding:1rem;
+background-color:#203b2c;
+border:1px solid #fff;
+color:#fff;
+text-align:center;
+margin-top:0px;
+}*/
+
+#footer{
+    padding:1rem;
+    background-color:#203b2c;
+    border:1px solid #fff;
+    color:#fff;
+    text-align:center;
+    margin-top:0px;
+}
+
+table{
+    color:#000;
+    font-size:13px;
+    text-transform:capitalize;
+    margin-top:auto;
+    margin-bottom:auto;
+
+}
+
+caption{
+    color:#000;
+    font-size:20px;
+    text-transform:uppercase;
+    text-decoration:underline;
+}
+
+
+#details{
+margin-top: 0px;
+padding: 1rem;
+background-color: inherit;
+text-align: center;
+}
+/*
+[class*="col-md-8"]{
+    margin-top:0px;
+    padding:1rem;
+    background-color:inherit;
+    border:1px solid #fff;
+    color:#000;
+    text-align:center;
+    } */
+
+/*
+a{
+color:#fff;
+text-decoration:none;
+text-transform:uppercase;
+} */
+
+a:link, a:visited {
+    background-color: #ff0000;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+  }
+
+  a:hover, a:active {
+    background-color: #4CAF50;
+  }
+
+
+.hidden{
+display:show;
+padding:0.2rem;
+margin-left:0.01rem;
+vertical-align:middle;
+font-size:18px;
+text-transform:uppercase;
+}
+
+[class*="navbar"]{
+    font-size:12px;
+    text-transform:uppercase;
+}
+
+/*
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    text-align: center;
+  } */
+
+/*#maxm{
+    height:220%;
+    width:100%;
+}*/
+
+form{
+    width: 100%;
+    /*margin: 0 auto; */
+}
+input[type='text'], input[type='email'], input[type='password'], input[type='file'], input[type='number'], textarea, select {
+    width: 500px;
+    border-radius: 2px;
+    border: 1px solid #CCC;
+    padding: 10px;
+    color: #333;
+    font-size: 14px;
+    margin-top: 0px;
+}
+input[type='date']{
+    width: 500px;
+}
+
+input[type='submit']{
+    padding: 10px 25px 8px;
+    color: #fff;
+    background-color: #960707;
+    text-shadow: rgba(8, 5, 5, 0.24) 0 1px 0;
+    text-transform: uppercase;
+    font-size: 16px;
+    box-shadow: rgba(255,255,255,0.24) 0 2px 0 0 inset,#fff 0 1px 0 0;
+    border: 1px solid #4CAF50;
+    border-radius: 2px;
+    margin-top: 10px;
+    cursor:pointer;
+    margin-bottom: 10px;
+}
+
+input[type='submit']:hover{
+    background-color: #4CAF50;
+}
+
+
+/* Removes the clear button from date inputs */
+input[type="date"]::-webkit-clear-button {
+   display: none;
+}
+
+/* Removes the spin button */
+input[type="date"]::-webkit-inner-spin-button { 
+   display: none;
+}
+
+/* Always display the drop down caret */
+input[type="date"]::-webkit-calendar-picker-indicator {
+   color: #2c3e50;
+}
+
+/* A few custom styles for date inputs */
+input[type="date"] {
+   appearance: none;
+   -webkit-appearance: none;
+   color: #95a5a6;
+   font-family: "Helvetica", arial, sans-serif;
+   font-size: 18px;
+   border:1px solid #ecf0f1;
+   background:#ecf0f1;
+   padding:5px;
+   display: inline-block !important;
+   visibility: visible !important;
+}
+
+input[type="date"], focus {
+   color: #95a5a6;
+   box-shadow: none;
+   -webkit-box-shadow: none;
+   -moz-box-shadow: none;
+}
+
+label{
+        margin: auto;
+}
